@@ -1,0 +1,53 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# VM / bytecode
+*.dex
+*.class
+
+# Generated / build outputs
+bin/
+gen/
+out/
+release/
+build/
+**/build/
+
+# Gradle
+.gradle/
+local.properties
+**/local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.navigation/
+captures/
+
+# Firebase Android config (contains API keys; add locally or via CI secrets)
+**/google-services.json
+google-services.json
+
+# Keystores — never commit signing material
+*.jks
+*.keystore
+
+# NDK / CMake
+.externalNativeBuild/
+.cxx/
+
+# Kotlin compiler session
+.kotlin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output

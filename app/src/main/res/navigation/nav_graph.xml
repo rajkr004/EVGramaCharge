@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mapFragment">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.evgramacharge.app.ui.map.MapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/bookingsFragment"
+        android:name="com.evgramacharge.app.ui.bookings.BookingsFragment"
+        android:label="@string/title_bookings"
+        tools:layout="@layout/fragment_bookings" />
+
+    <fragment
+        android:id="@+id/batteryCalculatorFragment"
+        android:name="com.evgramacharge.app.ui.calculator.BatteryCalculatorFragment"
+        android:label="@string/title_calculator"
+        tools:layout="@layout/fragment_battery_calculator" />
+
+    <fragment
+        android:id="@+id/hostsFragment"
+        android:name="com.evgramacharge.app.ui.hosts.HostsFragment"
+        android:label="@string/title_hosts"
+        tools:layout="@layout/fragment_hosts" />
+
+    <fragment
+        android:id="@+id/hostRegistrationFragment"
+        android:name="com.evgramacharge.app.ui.hosts.HostRegistrationFragment"
+        android:label="@string/host_registration"
+        tools:layout="@layout/fragment_host_registration" />
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="@string/title_map" />
+    <item
+        android:id="@+id/bookingsFragment"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="@string/title_bookings" />
+    <item
+        android:id="@+id/batteryCalculatorFragment"
+        android:icon="@android:drawable/ic_lock_idle_charging"
+        android:title="@string/title_calculator" />
+    <item
+        android:id="@+id/hostsFragment"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/title_hosts" />
+</menu>

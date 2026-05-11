@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EV-Grama Charge</string>
+    <string name="title_map">Map</string>
+    <string name="title_bookings">Bookings</string>
+    <string name="title_calculator">Battery</string>
+    <string name="title_hosts">Hosts</string>
+    <string name="host_registration">Register charging host</string>
+    <string name="save_host">Save host</string>
+    <string name="book_slot">Book slot</string>
+    <string name="sign_in_required">Signing you in…</string>
+    <string name="error_generic">Something went wrong. Try again.</string>
+    <string name="hint_host_name">Host / station name</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_lat">Latitude</string>
+    <string name="hint_lng">Longitude</string>
+    <string name="hint_price">Price per kWh</string>
+    <string name="hint_connector">Connector (e.g. Type 2)</string>
+    <string name="calculate">Calculate range</string>
+    <string name="current_soc">Current battery %</string>
+    <string name="target_soc">Target %</string>
+    <string name="battery_kwh">Usable battery (kWh)</string>
+    <string name="consumption">Consumption (kWh / 100 km)</string>
+    <string name="estimated_energy">Energy to add</string>
+    <string name="estimated_range">Approx. km from added energy</string>
+    <string name="no_bookings">No bookings yet.</string>
+    <string name="booking_energy_fmt">Estimated energy: %.1f kWh</string>
+    <string name="estimated_kwh_hint">Estimated kWh</string>
+    <string name="duration_hours">Duration (hours)</string>
+    <string name="my_location">My location</string>
+</resources>
