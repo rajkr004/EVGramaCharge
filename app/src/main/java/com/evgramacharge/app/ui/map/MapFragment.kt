@@ -70,6 +70,7 @@ class MapFragment : Fragment() {
             childFragmentManager.findFragmentById(R.id.map_container) as SupportMapFragment
         mapFragment.getMapAsync { googleMap ->
             map = googleMap
+            binding.dummyMapUi.visibility = View.GONE
             googleMap.uiSettings.isZoomControlsEnabled = true
             googleMap.setOnMarkerClickListener { marker ->
                 val host = marker.tag as? ChargingHost

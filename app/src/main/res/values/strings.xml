@@ -28,4 +28,6 @@
     <string name="estimated_kwh_hint">Estimated kWh</string>
     <string name="duration_hours">Duration (hours)</string>
     <string name="my_location">My location</string>
+    <string name="map_placeholder">Map View Placeholder</string>
+    <string name="map_api_instruction">Once you add your Google Maps API Key in local.properties, the real map will appear here.</string>
 </resources>
