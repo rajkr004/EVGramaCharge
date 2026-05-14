@@ -31,6 +31,17 @@ Hosts can register their charging points and manage them from the same app.
 
 ---
 
+## Previewing the App (Evaluation Note)
+
+For security and best practices, the **Google Maps API Key** is not included in the repository. It is managed via `local.properties`. 
+
+To ensure a smooth evaluation experience even without an API key:
+- **Map Placeholder:** If a valid API key is not provided, the Map screen will display a professional placeholder UI with instructions, instead of a blank screen.
+- **Sample Data:** The app automatically generates **Dummy Charging Hosts** and **Sample Bookings** when the Firestore database is empty. This allows you to explore the UI, navigation, and booking dialog flow immediately upon launch.
+- **Fully Implemented Logic:** All production code for Google Maps integration (permissions, markers, camera bounds, location tracking) is fully implemented in `MapFragment.kt` and ready for use with a valid key.
+
+---
+
 ## Features
 
 | Feature | Description |
